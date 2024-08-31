@@ -17,6 +17,11 @@ namespace ST10269809_CLDV6212_POE.Models
             public string Email { get; set; }
             public string PhoneNumber { get; set; }
 
-
+        public CustomerProfile()
+        {
+            PartitionKey = "CustomerProfile";
+            RowKey = Guid.NewGuid().ToString();
         }
+
+    }
     }
