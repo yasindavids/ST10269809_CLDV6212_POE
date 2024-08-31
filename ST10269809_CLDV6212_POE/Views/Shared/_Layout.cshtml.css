@@ -1,0 +1,8 @@
+﻿h1 {
+    font-size: 2.5rem; /* Adjust the size */
+    color: #333; /* Change the text color */
+    font-weight: lighter; /* Make the text bold */
+    text-align: center; /* Center-align the text */
+    margin-top: 20px; /* Space above the heading */
+    margin-bottom: 10px; /* Space below the heading */
+}

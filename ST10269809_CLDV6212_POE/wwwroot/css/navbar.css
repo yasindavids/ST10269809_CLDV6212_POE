@@ -1,0 +1,31 @@
+﻿/* From Uiverse.io by ErzenXz */
+.input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    background-color: #161b22; /* Slightly lighter background color for contrast */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    border-radius: 8px; /* Slightly larger border-radius for smoother corners */
+    gap: 10px; /* Increased gap for more spacing between items */
+    padding: 30px 100px; /* Adjusted padding for better text accommodation */
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a 3D effect */
+}
+
+.logo {
+    font-size: 28px; /* Slightly smaller font size for balance */
+    font-weight: bold; /* Make the logo text bold */
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px; /* Adjust padding for logo */
+   
+}
+
+
+
